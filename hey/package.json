@@ -1,0 +1,28 @@
+{
+  "name": "expo-next-typescript",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "next",
+    "eject-next": "next-expo customize",
+    "eject": "expo eject",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@expo/next-adapter": "^2.1.39",
+    "@types/react": "^17.0.3",
+    "expo": "~40.0.0",
+    "next": "^10.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.21.0",
+    "react-native-web": "^0.15.0",
+    "typescript": "^4.2.3"
+  },
+  "license": "MIT"
+}
